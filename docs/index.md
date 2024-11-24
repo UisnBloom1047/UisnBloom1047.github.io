@@ -1,6 +1,6 @@
-# 欢迎来到我的 VitePress 网站
+# BlockWander Minecraft Launcher官方文档
 
-这是一个由 VitePress 构建并部署在 GitHub Pages 上的示例网站。
+这是一个由 VitePress 构建并部署在 GitHub Pages 上的BlockWander Minecraft Launcher官方文档
 
 ## 网站简介
 在这里，你可以分享关于[你的主题或网站核心内容]的信息，无论是技术知识、个人经验还是其他有趣的内容都可以。
