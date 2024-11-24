@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockWander Minecraft Launcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero">
+        <h1 name="BlockWanderLauncher">BlockWander Minecraft Launcher</h1>
+        <p text="强大便捷的《我的世界》启动器">强大便捷的《我的世界》启动器，为你带来全新的游戏启动体验。</p>
+        <p tagline="专注、高效、易用、更新及时、支持多样">专注于提供优质的游戏启动服务，具备高效的启动速度，易用的操作业界，更新及时以适配游戏版本，支持多种游戏模式及模组。</p>
+        <img src="/blockwander_logo.svg" alt="BlockWander Minecraft Launcher" />
+        <div class="actions">
+            <button class="btn-brand" theme="brand" text="立即下载" link="/download"></button>
+            <button class="class-alt" theme="alt" text="在线体验" target="blank" link="http://your-online-experience-url.com"></button>
+            <button class="class-alt" theme="alt" text="在GitHub上查看" target="blank" link="https://github.com/your-repo/BlockWanderLauncher"></button>
+        </div>
+    </section>
+
+    <style>
+        /* 整体页面布局相关的基本样式可根据实际情况添加更多设置 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 英雄区域（展示主要内容的区域）的样式 */
+       .hero {
+            text-align: center;
+            padding: 80px 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+       .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+       .hero p {
+            margin-bottom: 30px;
+        }
+
+       .hero img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 40px;
+        }
+
+        /* 按钮通用样式 */
+       .actions button {
+            border: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        /* 品牌主题按钮样式（立即下载按钮） */
+       .btn-brand {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+       .btn-brand:hover {
+            background-color: #0056b3;
+        }
+
+        /* 替代主题按钮样式（在线体验、在GitHub上查看按钮） */
+       .class-alt {
+            background-color: #6c757d;
+            color: #fff;
+        }
+
+       .class-alt:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</body>
+</html>
